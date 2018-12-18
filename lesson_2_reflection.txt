@@ -3,3 +3,11 @@ What happens when you initialize a repository? Why do you need to do it?
   When you initialize a repository you create a new repository which can be
   reached by other computers. So to exchange data or files with git you have
   to initialize a repository.
+
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
+
+  The working directory is the place, where the files are created
+  and worked on.The staging area is the transport station for the file to
+  transport it to the repository. It offers the possibility to on file and just
+  commit it to the repository when it is ready for it.
