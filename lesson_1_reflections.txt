@@ -1,0 +1,46 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    I don't have to check spell errors, because diff finds every differences
+    between two files, which makes it easier to find the bug.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    It makes it very faster to see errors and misspells so that you can
+    concentrate more on programming than on finding spelling errors and other
+    bugs.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    One pro is, that you only can choose, if you want to commit it or not,
+    because you shouldn't commit code that does not work. One con is that you
+    could forget to commit. The more you do in one commit, the harder it is to
+    read it.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Because Git is made for programmers and some programs consists of more files
+    so that you need every file committed. Google Docs is more for writing
+    lists, emails or other texts that only are written in one file.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    First you get a look on all commits with git log and than you can choose
+    which commits you want to compare by typing the commit id behind "git diff".
+
+How might using version control make you more confident to make changes that
+could break something?
+
+    Because you know that the working file is every time safe on the server
+    and as long as you are just working on your local disk, you can't destroy
+    anything. Also you can checkout some commit you made before everytime to
+    see where the bug is.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    I want to use Git for programming with colleagues and friends to build
+    nice software.

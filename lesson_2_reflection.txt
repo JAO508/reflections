@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+  When you initialize a repository you create a new repository which can be
+  reached by other computers. So to exchange data or files with git you have
+  to initialize a repository.
