@@ -18,3 +18,11 @@ use one instead of another?
   Forks are copies of a whole remote repository. Clones are copies from a
   remote repository to a local directory. Branches are versions of files in a
   repository/directory.
+
+What is the benefit of having a copy of the last known state of the remote
+stored locally?
+
+    When you changed the file locally and someone committed to the file in the
+    repository, you want to know what was updated. If you just push it you will
+    merge it and in some cases you don't want it to be merged. So the benefit
+    is that you can separate versions in branches even after changing the file. 
