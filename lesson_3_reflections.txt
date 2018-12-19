@@ -11,3 +11,10 @@ automatically stay up-to-date with your remote repository?
   Because sometimes another user is working on the same code. So if he would
   change something that would affect your code and is pulled directly from
   the remote, your code gets confusing or even unreadable.
+
+Describe the differences between forks, clones, and branches. When would you
+use one instead of another?
+
+  Forks are copies of a whole remote repository. Clones are copies from a
+  remote repository to a local directory. Branches are versions of files in a
+  repository/directory.
