@@ -33,3 +33,12 @@ and what would be harder?
   You have to send copies of data with sticks or emails or something. That
   would last very long and would be uncomfortable to merge. I don't know what
   would be easier.
+
+When would you want to make changes in a separate branch rather than directly
+in master? What benefits does each approach have?
+
+  When you want to add feature or make a unique version you could want to make
+  changes in a new branch so that the old branch does not break. If this
+  feature is good and does not break anything you can merge it into the master
+  branch, which perhaps was changed in that time. Branching helps to test code
+  or helps to make the file in another language without losing the old file.
