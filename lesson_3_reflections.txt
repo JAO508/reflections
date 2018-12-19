@@ -25,4 +25,11 @@ stored locally?
     When you changed the file locally and someone committed to the file in the
     repository, you want to know what was updated. If you just push it you will
     merge it and in some cases you don't want it to be merged. So the benefit
-    is that you can separate versions in branches even after changing the file. 
+    is that you can separate versions in branches even after changing the file.
+
+How would you collaborate without using Git or GitHub? What would be easier,
+and what would be harder?
+
+  You have to send copies of data with sticks or emails or something. That
+  would last very long and would be uncomfortable to merge. I don't know what
+  would be easier.
