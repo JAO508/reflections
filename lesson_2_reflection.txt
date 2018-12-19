@@ -11,3 +11,37 @@ What value do you think it offers?
   and worked on.The staging area is the transport station for the file to
   transport it to the repository. It offers the possibility to on file and just
   commit it to the repository when it is ready for it.
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+  When you changed two files and want to commit them separately, you can add
+  each file separately to the staging area with 'git add <file>' and then
+  commit it. After adding the first file you have to commit and then you have
+  this logical change in one commit.
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+  For example, when you want to make version in another language of that file,
+  experiment with the file or use the architecture of that file (by branch an
+  early commit) and make a complete other program. The "git branch" command
+  lets you create a copy of the actual master and then you can use every git
+  commands you know, but still have the old version which is not overwritten.
+
+How do the diagrams help you visualize the branch structure?
+
+  A diagram can show from which code base the branch was built from the master.
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+  The result of merging two branches together is the fusion of two versions. We
+  present it in the diagram by two branches getting together in one knot,
+  because there is just one branch left out of two.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+  One big pro is that it is much faster than doing it manually, but sometimes
+  there can be a conflict, which can be confusing.
